@@ -231,7 +231,7 @@
                     <locking isolation="REPEATABLE_READ"/>
                     <transaction mode="BATCH"/>
                     <remote-store remote-servers="remote-jdg-server1 remote-jdg-server2"
-                        cache="default" socket-timeout="60000"
+                        cache="http-session-cache" socket-timeout="60000"
                         preload="true" passivation="false" purge="false" shared="true"/>
                 </replicated-cache>
                 <distributed-cache name="dist" mode="ASYNC" l1-lifespan="0" owners="2">
