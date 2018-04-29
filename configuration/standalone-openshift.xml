@@ -231,7 +231,7 @@
                     <locking isolation="REPEATABLE_READ"/>
                     <transaction mode="BATCH"/>
                     <remote-store remote-servers="remote-jdg-server"
-                        cache="http-session-cache" socket-timeout="60000"
+                        cache="${env.CACHE_NAME}" socket-timeout="60000"
                         preload="true" passivation="false" purge="false" shared="true"/>
                     <!-- This configurations could be used if JDG is outside of Openshift
                     <remote-store remote-servers="remote-jdg-server1 remote-jdg-server2"
