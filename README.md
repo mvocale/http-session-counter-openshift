@@ -1,12 +1,12 @@
 # http-session-counter-openshift
-Example of externalized HTTP session from JBoss EAP on OCP to JBoss Data Grid
 
-This project in an easy example of how to externalized HTTP session from JBoss EAP on OCP to JBoss Data Grid.
+This project in an Example of externalized HTTP session from JBoss EAP to JBoss Data Grid in Openshift environment.
+
 There is a simple counter that was incremented on every request and the value is preserved after a restart of the
 application server that hosts the simple web app.
 
 ## Configuration
-In order to use it in an xPaas enviroment, like Openshift, you should perform the following steps:
+In order to use it in an xPaaS enviroment, like Openshift, you should perform the following steps:
 
 ### Set up Openshift environment
 
